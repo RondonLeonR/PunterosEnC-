@@ -27,3 +27,5 @@ void Mostrar(int *puntero, int cantidad)
         printf("\nNumero:  %d",*(puntero+i));
     }
 }
+
+
