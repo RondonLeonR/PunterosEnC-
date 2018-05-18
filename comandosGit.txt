@@ -38,3 +38,9 @@ char en memoria vale 1 bytes
 	es diferente en cada estructura
 
 OPERADOR FLECHA '->'
+
+
+Memorias 
+EJERCICIO 
+Agregar datos en un archivo fprintf armar formato de un alumno
+y despues ir leyendolo.
