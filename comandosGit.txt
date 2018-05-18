@@ -10,3 +10,31 @@ cd PunterosEnC-
 	....
 
 	git push origin master -f
+
+
+18/05/18
+
+1 puntero = 4 bytes
+& para acceder la direccion de memoria de la variable
+* accede al valor de la estructura
+ ej:
+(*puntero).a Muestro lo que se encuentra dentro de la variable 'a' dentro de una estructura.
+
+ej: (&vector[0]);
+for(i=0; i<3 ; i++)
+    {
+        printf("Ingrese un numero: ");
+        scanf("%d",puntero+i);
+    }
+
+
+Para if
+	Cualquier valor distinto de 0 es verdadero
+	Si es igual a 0 es falso
+
+int en memoria valo 4 bytes
+char en memoria vale 1 bytes
+	sizeof nos dice el valor de una variable
+	es diferente en cada estructura
+
+OPERADOR FLECHA '->'
