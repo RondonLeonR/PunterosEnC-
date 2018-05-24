@@ -118,12 +118,14 @@ void funcion3()
     }*/
 
     miArchivo = fopen("miBinario.dat","rb");
+
     if(miArchivo!=NULL)
     {
-        fread(%d,sizeof(eDato),1,miArchivo);
+        fread(&d,sizeof(eDato),5,miArchivo);
         fclose(miArchivo);
 
         printf("%d %c",d.a, d.b);
     }
 
 }
+

@@ -1,0 +1,10 @@
+<html>
+	<head>  Hola<|head>
+
+
+
+
+
+<//html>
+
+guardar con .html

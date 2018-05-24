@@ -37,6 +37,9 @@ char en memoria vale 1 bytes
 	sizeof nos dice el valor de una variable
 	es diferente en cada estructura
 
+
+Split
+Esta funcion cada vez que se encuentra con un delimitador devuelve 
 OPERADOR FLECHA '->'
 
 
