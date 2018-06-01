@@ -1,0 +1,31 @@
+CONCEPTOS
+
+Ocultar los procesos y hacerlos en funciones
+getters/setter(la creamos nosotros)
+
+SETTER
+EN EL SETTER NO SE PUEDE INGRESAR PRINTF O TEXTO.
+Se usa para organizar el codigo
+Se usa this.(hace referencia a algo especifico es lo mismo que poner cualquier nombre)
+
+
+Getters
+son funciones que nos permiten obtener datos.
+Nose comprueba desde el main, se comprueba desde las funciones
+en char al retorno no se le asigna la cadena de caracteres, se le asigna la direccion de memoria
+
+MALLOC
+Reserva la memoria que necesito
+
+REALLOC(se usa para preservar la informacion)
+puede pasar 3 cosas:
+1- Encuentre
+2- No encuentra tenga que reasignar
+3- Que no encuentre y devuelve NULO 
+
+le decimos la cantidad de bits que necesito
+realloc(pVector,sizeof(int)*6);
+pVector = desde donde va a empezara buscar lugar libre
+
+free(); Se usa para liberar memoria
+pero si hay dos punteros a una direccion el free libera las dos direcciones de memorias
